@@ -1,0 +1,37 @@
+<!-- Selectores -->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+      div > h2 {
+        background-color: gray;
+      }
+      div > p {
+        background-color: yellow;
+      }
+      img {
+        width: 50%;
+        height: 50%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Selector de hijos</h1>    
+
+    <div>
+      <h2>Panzerkampfwagen Tiger Ausf. E</h2>
+      <img src="img/tanquecito.jpg" alt="tanquecito">
+      <p>Peso total: 56Tn</p>
+      <p>Velosidad máxima 40km/h</p>
+      <p>Armamento princial: Balines</p>
+    </div>
+    <div>
+      <span><p>No tengo estilo por que soy hijo directo de span, no de div</p></span>
+    </div>
+    <p>No tengo estilo por que no estoy en un div</p>
+  </body>
+</html>

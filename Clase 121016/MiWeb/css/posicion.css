@@ -1,0 +1,35 @@
+div {
+	width: 100px;
+	height: 100px;
+	background: #009710;
+	font-size: 15px;
+	float: left;
+}
+
+.guineapigdad{
+	width: 500px;
+	height: 500px;
+	background: #000000;
+	position: relative;
+}
+
+.guineapig{
+	/*position: static; Por defecto*/
+	/*position: relative; Desde la posicion donde deberia estar*/
+	position: absolute; /*Desde el origen*/
+	/*position: fixed;*/
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 200px;
+}
+
+img {
+	width: 400px;
+	height: 200px;
+	float: left;
+}
+
+.clear{
+	clear:both;
+}

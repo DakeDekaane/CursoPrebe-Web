@@ -1,0 +1,98 @@
+.header{
+  font-family: 'Coustard', serif;
+  margin:-8px;  
+  background-color: black;
+  padding: 20px;
+}
+
+.main{
+  font-family: 'Titillium Web', sans-serif;
+  align-self: center;
+  width: 60%;
+  padding-top: 1px;
+  padding-bottom: 30px;
+}
+
+.footer{
+  font-family: 'Coustard', serif;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -16px;
+  padding: 0px;
+  background-color: #960000;
+}
+
+.menu{
+  font-family: 'Coustard', cursive;
+  margin-top: -16px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -8px;
+  padding: 0px;
+  background-color: #960000;
+}
+
+.boton_menu{
+  display: inline-block;
+  width: 120px;
+  margin-left: -3px;
+  margin-right: -3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.lista{
+  display: block;
+}
+
+.main ul{
+  text-align: justify;
+}
+.main p{
+  text-align: justify;
+}
+
+.menu a, .footer a{
+  text-decoration: none;
+  color: #FFAB10;
+}
+
+.menu li, .footer li{
+  display: inline;
+}
+
+.menu li:hover a, .footer li:hover a{
+  background-color: #964A00;
+  color: white;
+}
+
+.menu li.active a{
+  background-color: #600000;
+  color: #FFAB00;
+}
+
+h1{
+  color: #FFAB00;
+  text-align: center;
+}
+
+body{
+  background-color: #C9C9C9;
+}
+
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,td{
+  padding: 10px;
+  vertical-align: middle;
+}
+
+th{
+  background-color: #A5A5A5;
+}
