@@ -1,0 +1,3 @@
+:x <--- Guardar y cerrar
+:q <--- Cerrar
+i <--- insertar
